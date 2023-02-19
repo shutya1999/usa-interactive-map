@@ -1,0 +1,94 @@
+/*Map*/
+.map {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.map svg {
+    width: 100%;
+    height: auto;
+}
+
+.map .map-state {
+    position: relative;
+}
+
+.map .map-state path {
+    cursor: pointer;
+}
+
+.map .map-state:hover path {
+    stroke: white;
+    stroke-width: 3px;
+}
+
+.map .text-state {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    pointer-events: none;
+}
+
+.map .text-state[data-id="13"] {
+    font-size: 13px;
+}
+
+.map .text-state[data-id="12"] {
+    font-size: 12px;
+}
+
+.map .text-state[data-id="pennsylvania"],
+.map .text-state[data-id="california"],
+.map .text-state[data-id="arkansas"],
+.map .text-state[data-id="louisiana"],
+.map .text-state[data-id="alabama"],
+.map .text-state[data-id="south-carolina"],
+.map .text-state[data-id="north-carolina"],
+.map .text-state[data-id="new-york"] {
+    font-size: 11px;
+}
+
+.map .text-state[data-id="michigan"],
+.map .text-state[data-id="virginia"],
+.map .text-state[data-id="new-jersey"],
+.map .text-state[data-id="delaware"],
+.map .text-state[data-id="maryland"],
+.map .text-state[data-id="florida"] {
+    font-size: 10px;
+}
+
+.map .text-state[data-id="9"] {
+    font-size: 9px;
+}
+
+.map .text-state[data-id="indiana"],
+.map .text-state[data-id="west-virginia"],
+.map .text-state[data-id="mississippi"],
+.map .text-state[data-id="new-hampshire"] {
+    font-size: 8px;
+}
+
+.map .text-state[data-id="massachusetts"],
+.map .text-state[data-id="rhode-island"] {
+    font-size: 6px;
+}
+
+.map .text-state[data-id="vermont"],
+.map .text-state[data-id="connecticut"] {
+    font-size: 5px;
+}
+
+.map .text-state[data-id="new-jersey"],
+.map .text-state[data-id="delaware"],
+.map .text-state[data-id="maryland"],
+.map .text-state[data-id="rhode-island"] {
+    color: black;
+}
